@@ -1,0 +1,176 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.flower{
+    width: 500px;
+    height: 500px;
+    margin: 120px auto;
+    position: relative;
+    animation: flowerani 5s linear 0s infinite;
+}
+@keyframes flowerani{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(359deg);
+    }
+}
+.flower > div{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.common{
+    width: 250px;
+    height: 250px;
+    border-bottom-left-radius: 250px;
+    border-top-right-radius: 250px;
+    transform-origin: right bottom;
+    opacity: 0.4;
+}
+.leaf1{
+    background: #00FFFF;
+    transform: rotate(0deg);
+}
+.leaf2{
+    background: #7FFFD4;
+    transform: rotate(10deg);
+}
+.leaf3{
+    background: #F5F5DC;
+    transform: rotate(20deg);
+}
+.leaf4{
+    background: #8A2BE2;
+    transform: rotate(30deg);
+}
+.leaf5{
+    background: #A52A2A;
+    transform: rotate(40deg);
+}
+.leaf6{
+    background: #5F9EA0;
+    transform: rotate(50deg);
+}
+.leaf7{
+    background: #6495ED;
+    transform: rotate(60deg);
+}
+.leaf8{
+    background: #5F9EA0;
+    transform: rotate(70deg);
+}
+.leaf9{
+    background: #6495ED;
+    transform: rotate(80deg);
+}
+.leaf10{
+    background: #00FFFF;
+    transform: rotate(90deg);
+}
+.leaf11{
+    background: #008B8B;
+    transform: rotate(100deg);
+}
+.leaf12{
+    background: #B8860B;
+    transform: rotate(110deg);
+}
+.leaf13{
+    background: #8B008B;
+    transform: rotate(120deg);
+}
+.leaf14{
+    background: #556B2F;
+    transform: rotate(130deg);
+}
+.leaf15{
+    background: #FF8C00;
+    transform: rotate(140deg);
+}
+.leaf16{
+    background: #9932CC;
+    transform: rotate(150deg);
+}
+.leaf17{
+    background: #8FBC8F;
+    transform: rotate(160deg);
+}
+.leaf18{
+    background: #483D8B;
+    transform: rotate(170deg);
+}
+.leaf19{
+    background: #9400D3;
+    transform: rotate(180deg);
+}
+.leaf20{
+    background: #00BFFF;
+    transform: rotate(190deg);
+}
+.leaf21{
+    background: #1E90FF;
+    transform: rotate(200deg);
+}
+.leaf22{
+    background: #B22222;
+    transform: rotate(210deg);
+}
+.leaf23{
+    background: #FF00FF;
+    transform: rotate(220deg);
+}
+.leaf24{
+    background: #DAA520;
+    transform: rotate(230deg);
+}
+.leaf25{
+    background: #008000;
+    transform: rotate(240deg);
+}
+.leaf26{
+    background: #FF69B4;
+    transform: rotate(250deg);
+}
+.leaf27{
+    background: #CD5C5C;
+    transform: rotate(260deg);
+}
+.leaf28{
+    background: #4B0082;
+    transform: rotate(270deg);
+}
+.leaf29{
+    background: #7CFC00;
+    transform: rotate(280deg);
+}
+.leaf30{
+    background: #ADD8E6;
+    transform: rotate(290deg);
+}
+.leaf31{
+    background: #F08080;
+    transform: rotate(300deg);
+}
+.leaf32{
+    background: #D3D3D3;
+    transform: rotate(310deg);
+}
+.leaf33{
+    background: #FFB6C1;
+    transform: rotate(320deg);
+}
+.leaf34{
+    background: #20B2AA;
+    transform: rotate(330deg);
+}
+.leaf35{
+    background: #00FF00;
+    transform: rotate(340deg);
+}
+.leaf36{
+    background: #FF00FF;
+    transform: rotate(350deg);
+}
